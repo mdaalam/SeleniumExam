@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="FS App running on Chrome Browser">
+
+    <parameter name="useSauceLab" value="true"/>
+    <parameter name="userName" value="cyberboolean"/>
+    <parameter name="key" value="e96c1f61-495a-4663-9382-c70abd72c938"/>
+    <parameter name="browserVersion" value="45.0.2454.93"/>
+    <parameter name="newArgument" value="1000"/>
+
+    <parameter name="appUrl" value="https://www.amazon.com/"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="browserName" value="chrome"/>
+
+    <test name="Home Page">
+        <classes>
+            <!--&lt;!&ndash;<class name="SignupTest"/>-->
+            <!--<class name="PlaceOrder"/>-->
+            <!--<class name="SignInTest"/>-->
+            <class name="SearchProductTest"/>
+
+        </classes>
+    </test>
+
+</suite>

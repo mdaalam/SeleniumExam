@@ -1,0 +1,10 @@
+PageObject/MenMenu.class
+PageObject/HomePage.class
+PageObject/KidsMenuPage.class
+PageObject/CartPage.class
+PageObject/CheckoutPage.class
+PageObject/MyAccountPage.class
+PageObject/FooterPage.class
+PageObject/WomenMenuPage.class
+PageObject/PDP.class
+FSBase.class
